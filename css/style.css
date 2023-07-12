@@ -11,19 +11,39 @@ background-color: #f6b319;
 border-radius: 0;
 border: 0
 }
+/** END OF HEADER**/
+
+/**MAIN CONTENT**/
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+
+
+/**END OF MAIN CONTENT**/
+
+
+
+/**FOOTER**/
 
 .footer {
 position: absolute;
 bottom: 0;
 background-color: #4f2f2f;
 }
+/**END OF FOOTER**/
+
 
 /**Media queries**/
 
 @media (max-width: 768px){
-.row, .col-12{
+ .row, .col-12{
 padding-top: 20px
 }
+
 
 
 }
