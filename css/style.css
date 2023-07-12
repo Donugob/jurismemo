@@ -21,7 +21,7 @@ background-color: #4f2f2f;
 /**Media queries**/
 
 @media (max-width: 768px){
-.row .col-12{
+.row, .col-12{
 padding-top: 20px
 }
 
